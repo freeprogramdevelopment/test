@@ -1,0 +1,14 @@
+{
+  "name": "LV Studio",
+  "short_name": "LV Studio",
+  "description": "LV Studio — fotografija i videografija",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
