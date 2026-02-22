@@ -1,6 +1,73 @@
 @import "tailwindcss";
 
+:root {
+  --accent: #e40687;
+  --accent-hover: #e40687;
+}
+
+@theme inline {
+  --color-accent: var(--accent);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
+  color: #18181b;
+}
+
+/* Content width – usklađeno s headerom */
+.content-width {
+  width: 100%;
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media (min-width: 640px) {
+  .content-width {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .content-width {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.accent-btn {
+  background-color: var(--accent);
+}
+.accent-btn:hover {
+  background-color: var(--accent-hover);
+}
+
+/* Animacije */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-in {
+  animation: fadeInUp 0.7s ease-out forwards;
+}
+.section-in-1 { animation-delay: 0.1s; }
+.section-in-2 { animation-delay: 0.2s; }
+.section-in-3 { animation-delay: 0.35s; }
+.section-in-4 { animation-delay: 0.5s; }
+
+.section-in {
+  opacity: 0;
 }

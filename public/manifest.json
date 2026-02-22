@@ -1,7 +1,7 @@
 {
   "name": "LV Studio",
   "short_name": "LV Studio",
-  "description": "LV Studio — fotografija i videografija",
+  "description": "LV Studio — fotografija, video, tehničko crtanje i 3D print",
   "start_url": "/",
   "display": "standalone",
   "icons": [
