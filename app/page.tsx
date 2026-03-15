@@ -21,7 +21,7 @@ export default function Home() {
           <div className="absolute inset-0" aria-hidden />
           <div className="content-width relative z-10 flex max-w-2xl flex-col items-center text-center">
             <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
-              Fotografija, video, tehničko crtanje i 3D print
+              Fotografija, video, tehničko crtanje i 3D printanje
             </h1>
             <p className="mt-4 text-lg text-white/90 sm:text-xl">
               Jedno mjesto za sve vizualne potrebe.
