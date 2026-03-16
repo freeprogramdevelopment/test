@@ -6,7 +6,7 @@ type PageHeaderHeroProps = {
 
 export default function PageHeaderHero({ label, title, subtitle }: PageHeaderHeroProps) {
   return (
-    <section className="relative bg-zinc-900 px-4 py-12">
+    <section className="relative bg-zinc-900 py-12">
       <div
         className="pointer-events-none absolute inset-0 opacity-40"
         style={{
