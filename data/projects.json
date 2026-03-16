@@ -1,0 +1,118 @@
+{
+  "featured": [
+    { "src": "/slika.jpg", "alt": "Projekt 1" },
+    { "src": "/slika2.webp", "alt": "Projekt 2" },
+    { "src": "/slika3.jpg", "alt": "Projekt 3" },
+    { "src": "/slika4.jpg", "alt": "Projekt 4" },
+    { "src": "/slika5.jpg", "alt": "Projekt 5" },
+    { "src": "/slika6.jpg", "alt": "Projekt 6" },
+    { "src": "/slika7.jpg", "alt": "Projekt 7" }
+  ],
+  "projects": [
+    {
+      "id": "stanic-gradnja",
+      "name": "Stanić Gradnja",
+      "year": "2024",
+      "tags": ["Fotografija", "Drone"],
+      "images": [
+        { "src": "/slika.jpg", "alt": "Stanić Gradnja 1" },
+        { "src": "/slika2.webp", "alt": "Stanić Gradnja 2" },
+        { "src": "/slika3.jpg", "alt": "Stanić Gradnja 3" },
+        { "src": "/slika4.jpg", "alt": "Stanić Gradnja 4" },
+        { "src": "/slika5.jpg", "alt": "Stanić Gradnja 5" },
+        { "src": "/slika6.jpg", "alt": "Stanić Gradnja 6" }
+      ]
+    },
+    {
+      "id": "mk-interijeri",
+      "name": "MK Interijeri",
+      "year": "2024",
+      "tags": ["Fotografija", "Video"],
+      "images": [
+        { "src": "/slika3.jpg", "alt": "MK Interijeri 1" },
+        { "src": "/slika2.webp", "alt": "MK Interijeri 2" },
+        { "src": "/slika.jpg", "alt": "MK Interijeri 3" },
+        { "src": "/slika4.jpg", "alt": "MK Interijeri 4" },
+        { "src": "/slika5.jpg", "alt": "MK Interijeri 5" },
+        { "src": "/slika6.jpg", "alt": "MK Interijeri 6" }
+      ]
+    },
+    {
+      "id": "aureus-nekretnine",
+      "name": "Aureus Nekretnine",
+      "year": "2024",
+      "tags": ["Fotografija", "Video", "Drone"],
+      "images": [
+        { "src": "/slika2.webp", "alt": "Aureus Nekretnine 1" },
+        { "src": "/slika.jpg", "alt": "Aureus Nekretnine 2" },
+        { "src": "/slika3.jpg", "alt": "Aureus Nekretnine 3" },
+        { "src": "/slika4.jpg", "alt": "Aureus Nekretnine 4" },
+        { "src": "/slika5.jpg", "alt": "Aureus Nekretnine 5" },
+        { "src": "/Banner.jpg", "alt": "Aureus Nekretnine 6" }
+      ]
+    },
+    {
+      "id": "biro-arhitektura",
+      "name": "Biro Arhitektura",
+      "year": "2023",
+      "tags": ["Fotografija", "Tehničko crtanje", "3D modeliranje"],
+      "images": [
+        { "src": "/slika4.jpg", "alt": "Biro Arhitektura 1" },
+        { "src": "/slika.jpg", "alt": "Biro Arhitektura 2" },
+        { "src": "/slika2.webp", "alt": "Biro Arhitektura 3" },
+        { "src": "/slika3.jpg", "alt": "Biro Arhitektura 4" },
+        { "src": "/slika7.jpg", "alt": "Biro Arhitektura 5" }
+      ]
+    },
+    {
+      "id": "tomas-motors",
+      "name": "Tomaš Motors",
+      "year": "2023",
+      "tags": ["Fotografija", "Video"],
+      "images": [
+        { "src": "/slika5.jpg", "alt": "Tomaš Motors 1" },
+        { "src": "/slika.jpg", "alt": "Tomaš Motors 2" },
+        { "src": "/slika6.jpg", "alt": "Tomaš Motors 3" },
+        { "src": "/slika7.jpg", "alt": "Tomaš Motors 4" },
+        { "src": "/Banner.jpg", "alt": "Tomaš Motors 5" }
+      ]
+    },
+    {
+      "id": "vinski-podrum-petrovic",
+      "name": "Vinski Podrum Petrović",
+      "year": "2023",
+      "tags": ["Fotografija", "Video", "3D print"],
+      "images": [
+        { "src": "/slika6.jpg", "alt": "Vinski Podrum Petrović 1" },
+        { "src": "/slika2.webp", "alt": "Vinski Podrum Petrović 2" },
+        { "src": "/slika3.jpg", "alt": "Vinski Podrum Petrović 3" },
+        { "src": "/slika4.jpg", "alt": "Vinski Podrum Petrović 4" },
+        { "src": "/slika5.jpg", "alt": "Vinski Podrum Petrović 5" }
+      ]
+    },
+    {
+      "id": "kovacevic-invest",
+      "name": "Kovačević Invest",
+      "year": "2023",
+      "tags": ["Drone", "Video"],
+      "images": [
+        { "src": "/slika7.jpg", "alt": "Kovačević Invest 1" },
+        { "src": "/slika.jpg", "alt": "Kovačević Invest 2" },
+        { "src": "/Banner.jpg", "alt": "Kovačević Invest 3" },
+        { "src": "/slika3.jpg", "alt": "Kovačević Invest 4" }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "auti",
+      "title": "Auti",
+      "images": [
+        { "src": "/slika.jpg", "alt": "Auto projekt 1" },
+        { "src": "/slika2.webp", "alt": "Auto projekt 2" },
+        { "src": "/slika3.jpg", "alt": "Auto projekt 3" },
+        { "src": "/slika4.jpg", "alt": "Auto projekt 4" }
+      ]
+    }
+  ]
+}
