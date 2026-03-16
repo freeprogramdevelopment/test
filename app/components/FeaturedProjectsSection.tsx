@@ -64,7 +64,7 @@ export default function FeaturedProjectsSection() {
             const size = sizePattern[i % sizePattern.length];
             return (
               <button
-                key={`${item.sectionId}-${i}`}
+                key={`${item.src}-${i}`}
                 type="button"
                 onClick={() => setActiveIndex(i)}
                 className={`group relative overflow-hidden bg-zinc-200 ${sizeClasses[size]} text-left`}
