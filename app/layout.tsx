@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ScrollToTop from "./components/ScrollToTop";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://lvstudio.com";
 
@@ -55,7 +56,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="hr">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <ScrollToTop />
+        {children}
+      </body>
     </html>
   );
 }

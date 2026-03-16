@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="relative mt-[-4rem] flex min-h-screen flex-col items-center justify-center px-4 pt-24 pb-20 sm:px-6 lg:px-8">
+    <section className="relative mt-[-4rem] flex min-h-[100dvh] flex-col items-center justify-center px-4 pt-24 pb-20 sm:px-6 lg:px-8">
       <Image
         src="/Banner.jpg"
         alt=""
