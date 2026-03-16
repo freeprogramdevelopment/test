@@ -15,7 +15,7 @@ export default function HeroSection() {
 
       {/* Scroll indicator */}
       <a
-        href="#usluge"
+        href="#o-nama"
         className="absolute bottom-10 left-1/2 z-10 flex -translate-x-1/2 flex-col items-center gap-2 text-white/60 transition-colors duration-300 hover:text-white"
         aria-label="Skrolaj dolje"
       >

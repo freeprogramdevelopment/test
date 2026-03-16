@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
 import Footer from "./components/Footer";
 import ContactCtaSection from "./components/ContactCtaSection";
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <main className="bg-zinc-100">
         <HeroSection />
+        <AboutSection />
         <ServicesSection />
         <FeaturedProjectsSection />
         <ContactCtaSection />
